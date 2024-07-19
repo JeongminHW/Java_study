@@ -1,0 +1,14 @@
+package ch02;
+
+// 자바의 인코딩은 UTF-8(유니코드)
+public class Ex4 {
+
+	public static void main(String[] args) {
+		int 나이, 키;
+	}
+	
+	public static void 출력하기(String 문자) {
+		System.out.println(문자);
+	}
+
+}

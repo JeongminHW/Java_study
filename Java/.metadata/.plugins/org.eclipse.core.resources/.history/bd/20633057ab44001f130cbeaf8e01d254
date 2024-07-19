@@ -1,0 +1,14 @@
+package ch06;
+
+
+public class MFrame3 extends Frame{
+	
+	public MFrame3(int w, int h, Color c, boolean resize) {
+		setSize(w, h);
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package ch06;
+
+import java.awt.*;
+
+public class MFrame3 extends Frame{
+	
+	public MFrame3(Color c) {
+		this(300, 300, c, false);
+	}
+	
+	public MFrame3(int w, int h, Color c, boolean resize) {
+		setSize(w, h);
+		setBackground(c);
+		setResizable(false);
+		
+	}
+
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package ch06;
+
+//부모 클래스
+class Person {
+	String name;
+	int age;
+
+	//this : 자신의 객체를 가리키는 키워드, 내 자신의 객체 속성의 필드 호출 시 사용
+	Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+		System.out.println(name + " " + age);
+	}
+}
+
+public class ConstructorEx4 {
+
+	public static void main(String[] args) {
+		Person ps = new Person("홍길동", 24);
+	}
+
+}

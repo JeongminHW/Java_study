@@ -1,0 +1,38 @@
+package ch06;
+
+class This5 {
+	int a;
+	String str;
+
+	This5() {
+		// 생성자 기본 기능
+	}
+
+	This5(int a) {
+		// 생성자의 기본 기능
+		this.a = a;
+	}
+
+	This5(String str) {
+		// 생성자 기본 기능
+		this.str = str;
+	}
+
+	This5(int a, String str) {
+		// 생성자 기본 기능
+		this.a = a;
+		this.str = str;
+	}
+}
+
+class This6{
+	int a;
+	String str;
+}
+
+public class ConstructorEx5 {
+
+	public static void main(String[] args) {
+	}
+
+}

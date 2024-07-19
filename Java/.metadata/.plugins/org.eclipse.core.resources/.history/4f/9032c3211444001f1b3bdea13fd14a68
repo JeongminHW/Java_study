@@ -1,0 +1,19 @@
+package ch06;
+
+
+class Super3{
+	Super3(){
+		
+	}
+}
+
+
+public class ConstructorEx3 {
+
+	public static void main(String[] args) {
+		Super3 s3 = new Super3();
+		s3.
+		
+	}
+
+}

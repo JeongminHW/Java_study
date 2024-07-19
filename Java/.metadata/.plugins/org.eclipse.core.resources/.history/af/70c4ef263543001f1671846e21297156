@@ -1,0 +1,27 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class Ex6 {
+
+	public static void main(String[] args) {
+		//점수와 학년을 입력 받아 60이상이면 합격인데 4학년은 70점 이상 합격
+		Scanner sc = new Scanner(System.in);
+		System.out.println("점수와 학년을 입력하세요. : ");
+		int score, grade;
+		score = sc.nextInt();
+		grade = sc.nextInt();
+		
+		if(grade>=1 & grade<=4&score>=60) {
+			if(grade == 4 & score>=70) {
+				System.out.println(grade + "학년 합격");
+			}
+			else
+				System.out.println("합격입니다.");
+		}
+		else {
+			System.out.println("불합격입니다.");
+		}
+	}
+
+}

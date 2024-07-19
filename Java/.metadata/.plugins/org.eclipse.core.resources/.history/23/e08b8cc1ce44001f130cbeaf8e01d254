@@ -1,0 +1,39 @@
+package ch06;
+
+import java.awt.*;
+
+//final
+// 1. 클래스 : Super 클래스의 역할을 할 수 없는 클래스. 즉 Sub 클래스가  (String, Math, System)
+// 2. 변수 : 상수 선언(필드, 매개변수, 지역변수)
+//3. 
+
+final class Final1 {
+}
+/* class Finale2 extends Final1{} */
+
+class Fianl3 {
+	// 상수 : 한 번 정해진 값의 변경이 불가능 한 변수
+	static final int KIA = 1; // 대부분 대문자로 표기
+	// Math.PI;
+	// Color.red;
+
+	// 상수는 반드시 초기화 시켜줘야함
+	int a;
+	final static int LOTTE = 2;
+
+	// 상수는 변수명 자체가 의미를 가짐
+	Label label1 = new Label("하하", 1);
+	Label label2 = new Label("하하", Label.CENTER);
+
+	void prn(final int b) { // 매개변수 상수
+		//b = 10;
+	}
+}
+
+public class FinalEx1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

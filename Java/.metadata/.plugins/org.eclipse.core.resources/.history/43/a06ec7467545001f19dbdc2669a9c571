@@ -1,0 +1,12 @@
+package ch06;
+
+import ch06_1.AccessEx4;
+
+public class AccessEx5 {
+
+	public static void main(String[] args) {
+		Access4 ac = new Access4();
+		
+	}
+
+}

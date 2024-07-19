@@ -1,0 +1,16 @@
+package ch04;
+
+import java.util.Scanner;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		//month를 입력하면 각각 계절에 맞게
+		//봄 : 3~5, 여름 : 6~8, 가을 : 9~11, 겨울 : 12~2
+		//5를 입력하면 '봄입니다.'
+		
+		Scanner sc = new Scanner(System.in);
+		String season = sc.nextLine();
+	}
+
+}

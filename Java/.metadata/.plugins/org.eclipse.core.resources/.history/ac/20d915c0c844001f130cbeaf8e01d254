@@ -1,0 +1,26 @@
+package ch06;
+
+class Super {
+	String name;
+
+	void prn() {
+		System.out.println(name);
+	}
+}
+
+class Sub extends Super {
+	int name;
+	@Override
+	void prn() {
+		System.out.println(super.name);
+		System.out.println(name); //자기 자신의 name
+	}
+}
+
+public class ThisEx3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package ch03;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// 괄호 안에 있는 것은 무조건 메소드 -> 메소드명()
+		// 괄호 안에 들어가는 변수 : 매개변수(인수/인자/arguments)
+		// 비교 연산자 : 결과값은 반드시 boolean 타입, 동일한 타입 비교
+		// == vs equals
+		int a = 10;
+		int b = 2;
+		System.out.println(a==b); //jsp : eq
+		System.out.println(a!=b);
+		System.out.println(a>b);
+		System.out.println(a<b);
+	}
+
+}

@@ -1,0 +1,29 @@
+package ch06;
+
+class Ann1{
+	void prn() {}
+}
+
+class Ann2 extends Ann1{
+	void prn() {}
+}
+
+
+// Annotation : 주석
+public class AnnotationEx1 {
+
+	public static void main(String[] args) {
+		char c = 'a';
+		if(Character.isSpace(c)) {
+			System.out.println(c+"공백문자");
+		}
+		else {
+			System.out.println(c+"공백문자 아님");
+		}
+		prn();
+	}
+	
+	@Deprecated
+	public static void prn() {}
+
+}

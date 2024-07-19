@@ -1,0 +1,25 @@
+package ch06;
+
+
+class Static2{
+
+	static int a; // 초기화 필요 X, 상수 X / final : 초기화 필요 O, 상수 O
+	int b;
+}
+
+
+public class StaticEx2 {
+
+	public static void main(String[] args) {
+		Static2 st1 = new Static2();
+		Static2 st2 = new Static2();
+		
+		// static 변수는 모든 객체의 공통적으로 사용하기 위해 하나만 만들어짐
+		st1.a = 10;
+		st1.b = 10;
+		st2.a = 20;
+		st2.b = 20;
+		System.out.println((st1.a + st1.b) + "\t" + (st2.a + st2.b));
+	}
+
+}

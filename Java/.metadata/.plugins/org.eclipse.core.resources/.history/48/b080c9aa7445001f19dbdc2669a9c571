@@ -1,0 +1,15 @@
+package ch06_1;
+
+class Access4{
+	private int a;
+	protected int b;
+	public int c;
+}
+
+public class AccessEx4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

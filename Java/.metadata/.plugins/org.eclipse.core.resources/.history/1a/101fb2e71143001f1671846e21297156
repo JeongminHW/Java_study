@@ -1,0 +1,10 @@
+package ch03;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		// 괄호 안에 있는 것은 무조건 메소드 -> 메소드명()
+		// 괄호 안에 들어가는 변수 : 매개변수(인수/인자/arguments)
+	}
+
+}

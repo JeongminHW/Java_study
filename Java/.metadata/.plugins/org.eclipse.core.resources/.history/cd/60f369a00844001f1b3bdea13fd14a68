@@ -1,0 +1,26 @@
+package ch06;
+
+class Method2{
+	void prn(int a) {
+		System.out.println(a);
+		return; // 리턴값이 없어도 선언 가능
+	}
+	
+	//오버로딩의 조건 : 매개변수의 개수와 타입이 달라야함
+	void prn(int a, int b) {
+		System.out.println(a+"\t"+b);
+	}
+}
+
+public class MethodEx2 {
+
+	public static void main(String[] args) {
+		System.out.println(1);
+		System.out.println(true);
+		System.out.println("하하");
+		System.out.println(3.14);
+		Method2 m2 = new Method2();
+		m2.prn(3);
+	}
+
+}

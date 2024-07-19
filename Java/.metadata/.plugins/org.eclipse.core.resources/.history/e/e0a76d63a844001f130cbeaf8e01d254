@@ -1,0 +1,25 @@
+package ch06;
+
+import java.awt.Button;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class MFrame {
+
+	public static void main(String[] args) {
+		MyFrame2 m = new MyFrame2();
+		Button btn = new Button();
+		btn.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				m.setBackground(randomColor());
+			}
+		});
+	}
+	
+	public Color randomColor() {
+		
+	}
+
+}

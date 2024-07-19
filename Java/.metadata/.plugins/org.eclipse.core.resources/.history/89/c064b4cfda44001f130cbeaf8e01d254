@@ -1,0 +1,17 @@
+package ch06;
+
+
+class Static2{
+
+	static int a; // 초기화 필요 X, 상수 X / 
+	int b;
+}
+
+
+public class StaticEx2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package ch06;
+
+
+// 패키지명은 도메인 뒤에 들어감
+import com.mysql.cj.jdbc.Driver;
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+
+public class PackageEx1 {
+
+	public static void main(String[] args) throws Exception {
+		Driver d = new Driver();
+		Frame f = new Frame();
+		Button btn = new Button();
+		ActionEvent ae;
+		//Date : javaj.util, java.sql
+		Date date = new Date();
+	}
+
+}

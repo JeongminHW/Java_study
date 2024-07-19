@@ -1,0 +1,11 @@
+package ch02;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		//변수의 선언 : 프로그램 실행에 필요한 값들을 저장하기 위한 문법
+		int a; // 반드시 타입부터 선언
+		a = 10; // 변수의 값(value) 대입
+	}
+
+}

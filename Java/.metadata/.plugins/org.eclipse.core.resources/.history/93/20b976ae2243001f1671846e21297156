@@ -1,0 +1,15 @@
+package ch04;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		String month = "feburary";
+		switch(month) {
+		case "january":
+		case "feburary":
+		case "march":
+		case "april":
+		}
+	}
+
+}

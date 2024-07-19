@@ -1,0 +1,16 @@
+package ch06;
+
+
+//접근 제어자 : 클래스, 필드, 메소드
+// 1. private(0.1%) : 
+// 2. protected (0.01%)
+// 3. public(99.9%)
+
+
+public class AccessEx1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

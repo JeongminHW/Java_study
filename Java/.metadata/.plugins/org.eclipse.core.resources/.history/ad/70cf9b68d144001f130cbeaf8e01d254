@@ -1,0 +1,19 @@
+package ch06;
+
+
+
+
+// Annotation : 주석
+public class AnnotationEx1 {
+
+	public static void main(String[] args) {
+		char c = 'a';
+		if(Character.isWhitespace(c)) {
+			System.out.println(c+"공백문자");
+		}
+		else {
+			System.out.println(c+"공백문자 아님");
+		}
+	}
+
+}

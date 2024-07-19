@@ -1,0 +1,12 @@
+package ch02;
+
+import java.util.*;
+
+public class Ex9 {
+
+	public static void main(String[] args) {
+		// 입력된 숫자가 짝수? 홀수?
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

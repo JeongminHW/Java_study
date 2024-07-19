@@ -1,0 +1,9 @@
+package ch06_1;
+
+public class AccessEx4 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

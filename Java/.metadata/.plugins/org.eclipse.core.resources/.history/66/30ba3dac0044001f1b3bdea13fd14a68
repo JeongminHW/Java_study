@@ -1,0 +1,21 @@
+package ch06;
+
+
+class Car2{
+	//new 연산자로 객체를 만들면 메소드 vs 필드 만들어지는 순서? 필드 먼저 만들어짐
+	
+	void stop() {
+		velocity = 0;
+	}
+	
+	int velocity;
+}
+
+
+public class CarEx2 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = a;
+		a = 20;
+	}
+}

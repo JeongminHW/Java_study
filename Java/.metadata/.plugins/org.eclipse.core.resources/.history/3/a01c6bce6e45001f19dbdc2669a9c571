@@ -1,0 +1,16 @@
+package ch06;
+
+class Access2 {
+	private String name;
+	private int age;
+
+}
+
+public class AccessEx2 {
+	public static void main(String[] args) {
+		Access2 a2 = new Access2();
+		a2.name = "홍길동";
+		
+	}
+
+}

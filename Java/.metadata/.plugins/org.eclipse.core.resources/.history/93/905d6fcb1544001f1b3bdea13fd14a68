@@ -1,0 +1,21 @@
+package ch06;
+
+
+class Super3 extends Object{
+	Super3(){
+		super(); // 생략되어 있음 (반드시 생성자의 첫번째 라인에 존재 -> 내 객체가 만들어지기 전에 부모클래스 객체가 먼저 만들어져야함)
+		//Object (슈퍼 클래스) <-> Super3(서브클래스)
+		System.out.println("Super3 생성자");
+		
+	}
+}
+
+
+public class ConstructorEx3 {
+
+	public static void main(String[] args) {
+		Super3 s3 = new Super3();
+		
+	}
+
+}

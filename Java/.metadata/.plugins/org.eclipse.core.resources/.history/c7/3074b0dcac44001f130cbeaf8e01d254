@@ -1,0 +1,9 @@
+package ch06;
+
+public class YouFrame3 extends MFrame3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

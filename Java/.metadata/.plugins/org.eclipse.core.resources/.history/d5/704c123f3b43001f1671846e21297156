@@ -1,0 +1,22 @@
+package ch04;
+
+public class Ex8 {
+
+	public static void main(String[] args) {
+		int sum = 0;
+		for(int i = 1; i<=10; i++) {
+			System.out.print(i + " + ");
+			sum+=i;
+		}
+		System.out.println(" = " + sum);
+		
+		sum = 0;
+		for(int j = 1; j<=30; j++) {
+			if(j%3==0) {
+				sum += j;
+			}
+		}
+		System.out.println(sum);
+	}
+
+}

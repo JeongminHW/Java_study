@@ -1,0 +1,12 @@
+package ch02;
+
+public class Ex5 {
+	public static void main(String[] args) {
+		// Data Type : 기본형 8개 + 참조형(class 타입) => 참조형 : SUN에서 제공되는 것 + 외부 라이브러리 + 현재 선언한 클래스 타입
+		int a = 10;
+		
+		// 클래스 타입 : 객체를 만드는 틀로 필드(객체 속성) 및 메소드(객체 기능)가 포함되어 있음
+		// String 클래스 : 문자열을 객체화 시킨 클래스 / ex) length() 등
+		// Math 클래스 : 수학을 객체화 시킨 클래스 / ex) PI(원주율 필드), 올림, 내림, 반올림, 절댓값 등
+	}
+}

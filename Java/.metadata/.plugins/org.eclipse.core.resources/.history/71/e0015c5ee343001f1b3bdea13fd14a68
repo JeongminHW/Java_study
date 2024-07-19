@@ -1,0 +1,10 @@
+package ch05;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		// 다차원 배열 : n * for
+		int arr[][] = new int[2][3];
+	}
+
+}

@@ -1,0 +1,9 @@
+package ch06;
+
+public class MFrame2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

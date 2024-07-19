@@ -1,0 +1,20 @@
+package ch06;
+
+class Super{
+	String name;
+	void prn() {
+		System.out.println(name);
+	}
+}
+
+class Sub3 extends Super3{
+	
+}
+
+public class ThisEx3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

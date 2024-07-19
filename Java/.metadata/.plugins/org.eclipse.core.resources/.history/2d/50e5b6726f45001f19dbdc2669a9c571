@@ -1,0 +1,17 @@
+package ch06;
+
+class Access2 { //public으로 선언하지 않으면 사용시 오류
+	private String name;
+	private int age;
+
+	//Getter, Setter
+}
+
+public class AccessEx2 {
+	public static void main(String[] args) {
+		Access2 a2 = new Access2();
+		a2.name = "홍길동";
+		
+	}
+
+}

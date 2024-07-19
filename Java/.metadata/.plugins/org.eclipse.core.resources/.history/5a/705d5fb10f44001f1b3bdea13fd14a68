@@ -1,0 +1,15 @@
+package ch06;
+
+
+class Constructor1{
+	// 생성자(메소드) : 클래스명과 동일한 이름으로 선언된 메소드
+}
+
+
+public class ConstructorEx1 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

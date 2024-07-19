@@ -1,0 +1,13 @@
+package ch06;
+
+public class MethodEx2 {
+
+	public static void main(String[] args) {
+		System.out.println(1);
+		System.out.println(true);
+		System.out.println("하하");
+		System.out.println(3.14);
+		Math.
+	}
+
+}

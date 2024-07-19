@@ -1,0 +1,15 @@
+package ch02;
+
+import java.io.IOException;
+
+public class Ex7 {
+	public static void main(String[] args) throws IOException {
+		System.out.println("키보드에서 입력하고 Enter 하세요.");
+		// 제어문 (반복문) : while
+		
+		while(true) {
+			int keyCode = System.in.read(); // 키보드로 입력한 문자(글)
+		}
+	}
+
+}
