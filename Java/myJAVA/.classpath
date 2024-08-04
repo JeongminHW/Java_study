@@ -7,5 +7,8 @@
 	</classpathentry>
 	<classpathentry kind="src" path=""/>
 	<classpathentry kind="lib" path="C:/Java/mysql-connector-j-8.0.32.jar"/>
+	<classpathentry kind="lib" path="C:/Java/jxbrowser-7.40.0.jar"/>
+	<classpathentry kind="lib" path="C:/Java/jxbrowser-swing-7.40.0.jar"/>
+	<classpathentry kind="lib" path="C:/Java/jxbrowser-win64-7.40.0.jar"/>
 	<classpathentry kind="output" path=""/>
 </classpath>
