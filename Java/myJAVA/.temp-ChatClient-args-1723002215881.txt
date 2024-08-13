@@ -1,0 +1,7 @@
+-Dfile.encoding=UTF-8
+-Dstdout.encoding=UTF-8
+-Dstderr.encoding=UTF-8
+-classpath
+"C:\\Java\\myJAVA;C:\\Java\\mysql-connector-j-8.0.32.jar;C:\\Java\\jxbrowser-7.40.0.jar;C:\\Java\\jxbrowser-swing-7.40.0.jar;C:\\Java\\jxbrowser-win64-7.40.0.jar"
+-XX:+ShowCodeDetailsInExceptionMessages
+net.ChatClient1
